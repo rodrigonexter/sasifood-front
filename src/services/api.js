@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:https://api-sasifood.herokuapp.com";
+const baseUrl = "https://api-sasifood.herokuapp.com/";
 
 /* Products */
 function createProduct(product) {
