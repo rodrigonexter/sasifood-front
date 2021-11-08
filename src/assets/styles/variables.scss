@@ -1,0 +1,45 @@
+.usefood-flex-container {
+    display: flex;
+}
+
+.usefood-flex-align-center {
+    @extend .usefood-flex-container;
+    align-items: center;
+
+}
+
+.usefood-flex-align-end {
+    @extend .usefood-flex-container;
+    align-items: end;
+
+}
+
+.usefood-flex-direction-column {
+    @extend .usefood-flex-container;
+    flex-direction: column;
+
+}
+
+
+.usefood-flex-justify-content-center {
+    justify-content: center;
+}
+
+
+.usefood-flex-row {
+    flex-direction: row;
+}
+
+.color-gray {
+    color: #777;
+}
+
+.color-active{
+    color: #F29C46;
+  }
+
+  .color-primary{
+    color: #C14D19;
+  }
+
+ 
